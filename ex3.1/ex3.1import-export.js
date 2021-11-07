@@ -1,4 +1,4 @@
-import * as nonono from './module.mjs'
+import name,{moooooooooooooooo,adeeeeeeeeeeeeeeeeeeb,maaaaaa} from './module.mjs'
  import fs from 'fs';
  let key=process.env.REACT_APP_KEY;
 /**
@@ -11,10 +11,10 @@ import * as nonono from './module.mjs'
  *   Can be called anytime.
  *   Not able to load partially.
  */
-console.log(nonono.name);
-console.log(nonono.maaaaaa());
-console.log(nonono.moooooooooooooooo());
-console.log(nonono.adeeeeeeeeeeeeeeeeeeb());
+console.log(name);
+console.log(maaaaaa());
+console.log(moooooooooooooooo());
+console.log(adeeeeeeeeeeeeeeeeeeb());
 fs.appendFileSync('module.mjs','//////////////////////////////////////////////////////');
 
 
