@@ -1,5 +1,6 @@
 import * as nonono from './module.mjs'
  import fs from 'fs';
+ let key=process.env.REACT_APP_KEY;
 /**
  * import:
  *   Lexical; will be sorted to the top of the current file.
