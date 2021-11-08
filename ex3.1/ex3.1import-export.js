@@ -1,5 +1,5 @@
 import name,{moooooooooooooooo,adeeeeeeeeeeeeeeeeeeb,maaaaaa} from './module.mjs'
- import fs from 'fs';
+import fs from 'fs';
  let key=process.env.REACT_APP_KEY;
 /**
  * import:
@@ -10,6 +10,9 @@ import name,{moooooooooooooooo,adeeeeeeeeeeeeeeeeeeb,maaaaaa} from './module.mjs
  *   Non-lexical; stay wherever it called.
  *   Can be called anytime.
  *   Not able to load partially.
+ * 
+ * to enable import we need to add "type"="module" to the package.json file and change the extension of the file to
+ * file witch we import the functions/variables from to mjs
  */
 console.log(name);
 console.log(maaaaaa());
