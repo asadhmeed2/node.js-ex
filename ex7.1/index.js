@@ -27,4 +27,4 @@ const getDataGot =async()=>{
 	}
 
 }
-getDataGot();
+// getDataGot();
